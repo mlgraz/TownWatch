@@ -31,7 +31,8 @@ yarn-error.*
 *.pem
 
 # local env files
-.env*.local
+.env*
+!.env.example
 
 # typescript
 *.tsbuildinfo
@@ -39,3 +40,11 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Lambda deployment package
+lambda-scraper/package/
+lambda-scraper/*.zip
+lambda-scraper/__pycache__/
+lambda-scraper/.env*
+lambda-scraper/test_env/
+lambda-scraper/venv/

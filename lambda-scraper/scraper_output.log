@@ -1,0 +1,236 @@
+/Users/matthewgraziani/projects/TownWatch/lambda-scraper/maryland_scraper_v2.py:431: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'started_at': datetime.utcnow().isoformat(),
+/Users/matthewgraziani/projects/TownWatch/lambda-scraper/maryland_scraper_v2.py:446: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'completed_at': datetime.utcnow().isoformat(),
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Device set to use cpu
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Your max_length is set to 100, but your input_length is only 94. Since this is a summarization task, where outputs shorter than the input are typically wanted, you might consider decreasing max_length manually, e.g. summarizer('...', max_length=47)
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Your max_length is set to 100, but your input_length is only 94. Since this is a summarization task, where outputs shorter than the input are typically wanted, you might consider decreasing max_length manually, e.g. summarizer('...', max_length=47)
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Your max_length is set to 100, but your input_length is only 94. Since this is a summarization task, where outputs shorter than the input are typically wanted, you might consider decreasing max_length manually, e.g. summarizer('...', max_length=47)
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Your max_length is set to 100, but your input_length is only 96. Since this is a summarization task, where outputs shorter than the input are typically wanted, you might consider decreasing max_length manually, e.g. summarizer('...', max_length=48)
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Your max_length is set to 100, but your input_length is only 96. Since this is a summarization task, where outputs shorter than the input are typically wanted, you might consider decreasing max_length manually, e.g. summarizer('...', max_length=48)
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Your max_length is set to 100, but your input_length is only 94. Since this is a summarization task, where outputs shorter than the input are typically wanted, you might consider decreasing max_length manually, e.g. summarizer('...', max_length=47)
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Your max_length is set to 100, but your input_length is only 94. Since this is a summarization task, where outputs shorter than the input are typically wanted, you might consider decreasing max_length manually, e.g. summarizer('...', max_length=47)
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Your max_length is set to 100, but your input_length is only 94. Since this is a summarization task, where outputs shorter than the input are typically wanted, you might consider decreasing max_length manually, e.g. summarizer('...', max_length=47)
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Your max_length is set to 100, but your input_length is only 94. Since this is a summarization task, where outputs shorter than the input are typically wanted, you might consider decreasing max_length manually, e.g. summarizer('...', max_length=47)
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Your max_length is set to 100, but your input_length is only 94. Since this is a summarization task, where outputs shorter than the input are typically wanted, you might consider decreasing max_length manually, e.g. summarizer('...', max_length=47)
+/Users/matthewgraziani/projects/TownWatch/lambda-scraper/maryland_scraper_v2.py:446: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'completed_at': datetime.utcnow().isoformat(),
+/Users/matthewgraziani/projects/TownWatch/lambda-scraper/maryland_scraper_v2.py:431: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'started_at': datetime.utcnow().isoformat(),
+/Users/matthewgraziani/projects/TownWatch/lambda-scraper/maryland_scraper_v2.py:920: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'scraped_at': datetime.utcnow().isoformat(),
+Starting Maryland government document scraping (version 2.0.0-maryland)...
+Total sources configured: 15
+
+Scraping Maryland General Assembly...
+✓ Maryland General Assembly: 0 documents found
+
+Scraping Board of Estimates...
+Extracting PDF from: https://comptroller.baltimorecity.gov/sites/default/files/2025-11-05-AgendaWithTOC.pdf
+Processing 408 pages from PDF
+✓ Extracted 500003 characters from PDF
+Loading HuggingFace model: facebook/bart-large-cnn
+✓ HuggingFace model loaded successfully
+Large document detected (500003 chars), filtering to interesting sections...
+Filtered to 30458 chars of interesting content
+Summarizing 5 chunks with HuggingFace BART...
+  ✓ Chunk 1/5 summarized
+  ✗ Error summarizing chunk 2: index out of range in self
+  ✗ Error summarizing chunk 3: index out of range in self
+  ✗ Error summarizing chunk 4: index out of range in self
+  ✗ Error summarizing chunk 5: index out of range in self
+✓ Final summary: 351 characters
+Extracting PDF from: https://comptroller.baltimorecity.gov/sites/default/files/comptroller_baltimorecity_gov/attachments/10.15.2025%20FINAL%20BOE%20Agenda.pdf
+Processing 262 pages from PDF
+✓ Extracted 500003 characters from PDF
+Large document detected (500003 chars), filtering to interesting sections...
+Filtered to 28744 chars of interesting content
+Summarizing 5 chunks with HuggingFace BART...
+  ✓ Chunk 1/5 summarized
+  ✗ Error summarizing chunk 2: index out of range in self
+  ✗ Error summarizing chunk 3: index out of range in self
+  ✗ Error summarizing chunk 4: index out of range in self
+  ✗ Error summarizing chunk 5: index out of range in self
+✓ Final summary: 351 characters
+Extracting PDF from: https://comptroller.baltimorecity.gov/sites/default/files/comptroller_baltimorecity_gov/attachments/2025-10-01-AgendaWithTOC_FINAL.pdf
+Processing 287 pages from PDF
+✓ Extracted 500003 characters from PDF
+Large document detected (500003 chars), filtering to interesting sections...
+Filtered to 26281 chars of interesting content
+Summarizing 5 chunks with HuggingFace BART...
+  ✓ Chunk 1/5 summarized
+  ✗ Error summarizing chunk 2: index out of range in self
+  ✗ Error summarizing chunk 3: index out of range in self
+  ✗ Error summarizing chunk 4: index out of range in self
+  ✗ Error summarizing chunk 5: index out of range in self
+✓ Final summary: 350 characters
+Extracting PDF from: https://comptroller.baltimorecity.gov/sites/default/files/comptroller_baltimorecity_gov/attachments/2025-09-17-AgendaWithTOC%20FINAL.pdf
+Processing 293 pages from PDF
+✓ Extracted 500003 characters from PDF
+Large document detected (500003 chars), filtering to interesting sections...
+Filtered to 26145 chars of interesting content
+Summarizing 5 chunks with HuggingFace BART...
+  ✓ Chunk 1/5 summarized
+  ✗ Error summarizing chunk 2: index out of range in self
+  ✗ Error summarizing chunk 3: index out of range in self
+  ✗ Error summarizing chunk 4: index out of range in self
+  ✗ Error summarizing chunk 5: index out of range in self
+✓ Final summary: 374 characters
+Extracting PDF from: https://comptroller.baltimorecity.gov/sites/default/files/comptroller_baltimorecity_gov/attachments/2025-09-03-AgendaWithTOC%20FINAL_1.pdf
+Processing 268 pages from PDF
+✓ Extracted 500003 characters from PDF
+Large document detected (500003 chars), filtering to interesting sections...
+Filtered to 26591 chars of interesting content
+Summarizing 5 chunks with HuggingFace BART...
+  ✓ Chunk 1/5 summarized
+  ✗ Error summarizing chunk 2: index out of range in self
+  ✗ Error summarizing chunk 3: index out of range in self
+  ✗ Error summarizing chunk 4: index out of range in self
+  ✗ Error summarizing chunk 5: index out of range in self
+✓ Final summary: 359 characters
+Extracting PDF from: https://comptroller.baltimorecity.gov/sites/default/files/BOE%20Agenda%208.20.25.pdf
+Processing 166 pages from PDF
+✓ Extracted 400058 characters from PDF
+Large document detected (400058 chars), filtering to interesting sections...
+Filtered to 19309 chars of interesting content
+Summarizing 5 chunks with HuggingFace BART...
+  ✓ Chunk 1/5 summarized
+  ✗ Error summarizing chunk 2: index out of range in self
+  ✗ Error summarizing chunk 3: index out of range in self
+  ✗ Error summarizing chunk 4: index out of range in self
+  ✗ Error summarizing chunk 5: index out of range in self
+✓ Final summary: 350 characters
+Extracting PDF from: https://comptroller.baltimorecity.gov/sites/default/files/Board%20of%20Estimates%20Agenda%208.6.2025.pdf
+Processing 349 pages from PDF
+✓ Extracted 500003 characters from PDF
+Large document detected (500003 chars), filtering to interesting sections...
+Filtered to 32813 chars of interesting content
+Summarizing 5 chunks with HuggingFace BART...
+  ✓ Chunk 1/5 summarized
+  ✗ Error summarizing chunk 2: index out of range in self
+  ✗ Error summarizing chunk 3: index out of range in self
+  ✗ Error summarizing chunk 4: index out of range in self
+  ✗ Error summarizing chunk 5: index out of range in self
+✓ Final summary: 349 characters
+Extracting PDF from: https://comptroller.baltimorecity.gov/sites/default/files/2025-07-16-AgendaWithTOC%20FINAL%20AGENDA.pdf
+Processing 223 pages from PDF
+✓ Extracted 497085 characters from PDF
+Large document detected (497085 chars), filtering to interesting sections...
+Filtered to 22014 chars of interesting content
+Summarizing 5 chunks with HuggingFace BART...
+  ✓ Chunk 1/5 summarized
+  ✗ Error summarizing chunk 2: index out of range in self
+  ✗ Error summarizing chunk 3: index out of range in self
+  ✗ Error summarizing chunk 4: index out of range in self
+  ✗ Error summarizing chunk 5: index out of range in self
+✓ Final summary: 345 characters
+Extracting PDF from: https://comptroller.baltimorecity.gov/sites/default/files/2025-07-02-AgendaWithTOC%20FINAL.pdf
+Processing 241 pages from PDF
+✓ Extracted 500003 characters from PDF
+Large document detected (500003 chars), filtering to interesting sections...
+Filtered to 25929 chars of interesting content
+Summarizing 5 chunks with HuggingFace BART...
+  ✓ Chunk 1/5 summarized
+  ✗ Error summarizing chunk 2: index out of range in self
+  ✗ Error summarizing chunk 3: index out of range in self
+  ✗ Error summarizing chunk 4: index out of range in self
+  ✗ Error summarizing chunk 5: index out of range in self
+✓ Final summary: 344 characters
+Extracting PDF from: https://comptroller.baltimorecity.gov/sites/default/files/6.18.2025%20BOE%20Agenda.pdf
+Processing 230 pages from PDF
+✓ Extracted 500003 characters from PDF
+Large document detected (500003 chars), filtering to interesting sections...
+Filtered to 22315 chars of interesting content
+Summarizing 5 chunks with HuggingFace BART...
+  ✓ Chunk 1/5 summarized
+  ✗ Error summarizing chunk 2: index out of range in self
+  ✗ Error summarizing chunk 3: index out of range in self
+  ✗ Error summarizing chunk 4: index out of range in self
+  ✗ Error summarizing chunk 5: index out of range in self
+✓ Final summary: 345 characters
+✓ Board of Estimates: 10 documents found
+
+Scraping Baltimore City Council...
+✓ Baltimore City Council: 0 documents found
+
+Scraping Montgomery County Council...
+✓ Montgomery County Council: 0 documents found
+
+Scraping Prince George's County Council...
+✓ Prince George's County Council: 0 documents found
+
+============================================================
+Storing 10 total documents in Supabase...
+
+============================================================
+✅ Maryland Scraping Complete!
+============================================================
+Sources scraped:     5
+Documents found:     10
+New documents:       10
+Updated documents:   0
+Duplicates skipped:  0
+Errors:              0
+============================================================
+
+Breakdown by source:
+  Maryland General Assembly: 0
+  Board of Estimates: 10
+  Baltimore City Council: 0
+  Montgomery County Council: 0
+  Prince George's County Council: 0
+============================================================
+
+{
+  "message": "Maryland government scraping completed",
+  "scraper_version": "2.0.0-maryland",
+  "sources_scraped": 5,
+  "breakdown": {
+    "Maryland General Assembly": 0,
+    "Board of Estimates": 10,
+    "Baltimore City Council": 0,
+    "Montgomery County Council": 0,
+    "Prince George's County Council": 0
+  },
+  "total_documents_found": 10,
+  "storage_results": {
+    "stored": 10,
+    "updated": 0,
+    "duplicates": 0,
+    "errors": 0,
+    "total_processed": 10
+  },
+  "scraper_runs": 5
+}

@@ -1,16 +1,16 @@
 {
   "expo": {
-    "name": "pollyView",
-    "slug": "pollyView",
+    "name": "TownWatch",
+    "slug": "townwatch",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#6200ee"
     },
     "ios": {
       "supportsTablet": true

@@ -1,0 +1,191 @@
+{
+  "state_level": [
+    {
+      "name": "Maryland General Assembly - Meetings",
+      "jurisdiction": "Maryland State",
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Meetings/Month",
+      "type": "legislature",
+      "description": "State legislative meetings, committee hearings",
+      "data_format": "calendar_with_links",
+      "update_frequency": "daily",
+      "topics": ["legislation", "budget", "policy"]
+    },
+    {
+      "name": "Maryland General Assembly - Floor Actions",
+      "jurisdiction": "Maryland State",
+      "url": "https://mgaleg.maryland.gov/mgawebsite/FloorActions/Agenda/agendas",
+      "type": "legislature",
+      "description": "Senate and House floor agendas and actions",
+      "data_format": "agenda_list",
+      "update_frequency": "daily",
+      "topics": ["legislation", "votes"]
+    },
+    {
+      "name": "Governor's Commission on Middle Eastern American Affairs",
+      "jurisdiction": "Maryland State",
+      "url": "https://goci.maryland.gov/governors-commission-on-middle-eastern-american-affairs/meetings/",
+      "type": "commission",
+      "description": "Commission meetings with agendas, videos, and minutes",
+      "data_format": "meeting_archive",
+      "update_frequency": "monthly",
+      "topics": ["community", "policy", "civil rights"]
+    },
+    {
+      "name": "Maryland Transportation Authority",
+      "jurisdiction": "Maryland State",
+      "url": "https://mdta.maryland.gov/Meeting_Schedules/Special_Public_Meetings_Schedule.html",
+      "type": "authority",
+      "description": "Public meetings, open houses, industry forums",
+      "data_format": "meeting_schedule",
+      "update_frequency": "monthly",
+      "topics": ["transportation", "infrastructure"]
+    }
+  ],
+  "baltimore_city": [
+    {
+      "name": "Baltimore City Council - Meetings",
+      "jurisdiction": "Baltimore City",
+      "url": "https://www.baltimorecitycouncil.com/complete-calendar",
+      "type": "city_council",
+      "description": "City Council meeting schedules and calendar",
+      "data_format": "calendar",
+      "update_frequency": "weekly",
+      "topics": ["local legislation", "zoning", "budget"]
+    },
+    {
+      "name": "Baltimore Board of Estimates",
+      "jurisdiction": "Baltimore City",
+      "url": "https://www.baltimorecitycouncil.com/memos-agendas",
+      "type": "board",
+      "description": "Board of Estimates memos and agendas (PDFs)",
+      "data_format": "pdf_table",
+      "update_frequency": "weekly",
+      "topics": ["budget", "contracts", "procurement"]
+    },
+    {
+      "name": "Baltimore Planning Commission",
+      "jurisdiction": "Baltimore City",
+      "url": "https://pc.baltimorecity.gov/pc-agendas-minutes",
+      "type": "commission",
+      "description": "Planning Commission agendas and minutes",
+      "data_format": "meeting_archive",
+      "update_frequency": "monthly",
+      "topics": ["planning", "zoning", "development"]
+    },
+    {
+      "name": "Baltimore City Comptroller - BOE",
+      "jurisdiction": "Baltimore City",
+      "url": "https://comptroller.baltimorecity.gov/boe",
+      "type": "board",
+      "description": "Board of Estimates meetings from Comptroller's office",
+      "data_format": "meeting_list",
+      "update_frequency": "weekly",
+      "topics": ["budget", "finance", "contracts"]
+    }
+  ],
+  "baltimore_county": [
+    {
+      "name": "Baltimore County Council",
+      "jurisdiction": "Baltimore County",
+      "url": "https://www.baltimorecountymd.gov/departments/countycouncil/meetings",
+      "type": "county_council",
+      "description": "County Council meetings and agendas",
+      "data_format": "meeting_portal",
+      "update_frequency": "weekly",
+      "topics": ["local legislation", "zoning", "budget"]
+    }
+  ],
+  "montgomery_county": [
+    {
+      "name": "Montgomery County Council - On Demand",
+      "jurisdiction": "Montgomery County",
+      "url": "https://www.montgomerycountymd.gov/COUNCIL/OnDemand/index.html",
+      "type": "county_council",
+      "description": "Council meetings, agendas, videos on demand",
+      "data_format": "video_portal",
+      "update_frequency": "weekly",
+      "topics": ["local legislation", "zoning", "budget"]
+    },
+    {
+      "name": "Montgomery County Council - Legistar",
+      "jurisdiction": "Montgomery County",
+      "url": "https://montgomerycountymd.legistar.com/Calendar.aspx",
+      "type": "county_council",
+      "description": "Legislative management system with detailed agendas",
+      "data_format": "legistar",
+      "update_frequency": "weekly",
+      "topics": ["legislation", "agendas", "minutes"]
+    }
+  ],
+  "prince_georges_county": [
+    {
+      "name": "Prince George's County Council",
+      "jurisdiction": "Prince George's County",
+      "url": "https://princegeorgescountymd.legistar.com/Calendar.aspx",
+      "type": "county_council",
+      "description": "County Council calendar and agendas via Legistar",
+      "data_format": "legistar",
+      "update_frequency": "weekly",
+      "topics": ["local legislation", "zoning", "budget"]
+    }
+  ],
+  "anne_arundel_county": [
+    {
+      "name": "Anne Arundel County Council",
+      "jurisdiction": "Anne Arundel County",
+      "url": "https://www.aacounty.org/county-council/meetings",
+      "type": "county_council",
+      "description": "County Council meetings, agendas, and minutes",
+      "data_format": "meeting_portal",
+      "update_frequency": "weekly",
+      "topics": ["local legislation", "zoning", "budget"]
+    }
+  ],
+  "howard_county": [
+    {
+      "name": "Howard County Council",
+      "jurisdiction": "Howard County",
+      "url": "https://cc.howardcountymd.gov/Legislation-Agendas-Minutes",
+      "type": "county_council",
+      "description": "County Council legislation, agendas, and minutes",
+      "data_format": "meeting_portal",
+      "update_frequency": "weekly",
+      "topics": ["local legislation", "zoning", "budget"]
+    }
+  ],
+  "frederick_county": [
+    {
+      "name": "Frederick County Council",
+      "jurisdiction": "Frederick County",
+      "url": "https://frederickcountymd.gov/245/County-Council",
+      "type": "county_council",
+      "description": "County Council information and meetings",
+      "data_format": "meeting_portal",
+      "update_frequency": "weekly",
+      "topics": ["local legislation", "zoning", "budget"]
+    }
+  ],
+  "metadata": {
+    "total_sources": 15,
+    "last_updated": "2025-01-05",
+    "coverage": [
+      "Maryland State Legislature",
+      "Baltimore City (4 sources)",
+      "Baltimore County",
+      "Montgomery County (2 sources)",
+      "Prince George's County",
+      "Anne Arundel County",
+      "Howard County",
+      "Frederick County"
+    ],
+    "data_formats": [
+      "calendar_with_links",
+      "agenda_list",
+      "meeting_archive",
+      "pdf_table",
+      "meeting_portal",
+      "legistar",
+      "video_portal"
+    ]
+  }
+}

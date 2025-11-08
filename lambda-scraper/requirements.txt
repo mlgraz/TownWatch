@@ -1,0 +1,23 @@
+# AWS Lambda Python dependencies for TownWatch scraper
+
+# Core scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+supabase>=2.0.0
+python-dateutil>=2.8.0
+lxml>=4.9.0
+
+# PDF extraction
+pdfplumber>=0.10.0
+pypdf2>=3.0.0
+
+# Text processing and summarization
+spacy>=3.7.0
+# Note: For Lambda deployment, download en_core_web_sm separately
+# Download with: python -m spacy download en_core_web_sm
+
+# HuggingFace transformers for AI summarization (FREE)
+transformers>=4.36.0
+torch>=2.1.0
+sentencepiece>=0.1.99  # Required for some models
+accelerate>=0.25.0  # Speeds up model loading

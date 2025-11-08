@@ -1,0 +1,54 @@
+{
+  "timestamp": "2025-11-06T19:40:43.612019",
+  "total_sources_scraped": 5,
+  "sources": {
+    "Baltimore BOE": {
+      "documents_found": 10,
+      "documents_with_content": 10,
+      "average_content_length": 2003,
+      "topics_found": [
+        "Finance",
+        "Public Safety",
+        "Health",
+        "Economic Development",
+        "Budget",
+        "Planning",
+        "Legislation",
+        "Contracts",
+        "Education",
+        "Transportation",
+        "Housing"
+      ]
+    },
+    "Baltimore City Council": {
+      "documents_found": 0,
+      "documents_with_content": 0,
+      "average_content_length": 0,
+      "topics_found": []
+    },
+    "MD General Assembly": {
+      "documents_found": 0,
+      "documents_with_content": 0,
+      "average_content_length": 0,
+      "topics_found": []
+    },
+    "Montgomery County": {
+      "documents_found": 0,
+      "documents_with_content": 0,
+      "average_content_length": 0,
+      "topics_found": []
+    },
+    "Prince Georges County": {
+      "documents_found": 0,
+      "documents_with_content": 0,
+      "average_content_length": 0,
+      "topics_found": []
+    }
+  },
+  "totals": {
+    "total_documents": 10,
+    "documents_with_real_content": 10,
+    "average_content_length": 2003,
+    "extraction_success_rate": "100.0%"
+  }
+}

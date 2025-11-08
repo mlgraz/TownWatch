@@ -1,0 +1,233 @@
+/Users/matthewgraziani/projects/TownWatch/lambda-scraper/maryland_scraper_v2.py:431: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'started_at': datetime.utcnow().isoformat(),
+/Users/matthewgraziani/projects/TownWatch/lambda-scraper/maryland_scraper_v2.py:446: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'completed_at': datetime.utcnow().isoformat(),
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Device set to use cpu
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Your max_length is set to 100, but your input_length is only 94. Since this is a summarization task, where outputs shorter than the input are typically wanted, you might consider decreasing max_length manually, e.g. summarizer('...', max_length=47)
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Your max_length is set to 100, but your input_length is only 94. Since this is a summarization task, where outputs shorter than the input are typically wanted, you might consider decreasing max_length manually, e.g. summarizer('...', max_length=47)
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Your max_length is set to 100, but your input_length is only 94. Since this is a summarization task, where outputs shorter than the input are typically wanted, you might consider decreasing max_length manually, e.g. summarizer('...', max_length=47)
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Your max_length is set to 100, but your input_length is only 96. Since this is a summarization task, where outputs shorter than the input are typically wanted, you might consider decreasing max_length manually, e.g. summarizer('...', max_length=48)
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Your max_length is set to 100, but your input_length is only 96. Since this is a summarization task, where outputs shorter than the input are typically wanted, you might consider decreasing max_length manually, e.g. summarizer('...', max_length=48)
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Your max_length is set to 100, but your input_length is only 94. Since this is a summarization task, where outputs shorter than the input are typically wanted, you might consider decreasing max_length manually, e.g. summarizer('...', max_length=47)
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+Your max_length is set to 100, but your input_length is only 94. Since this is a summarization task, where outputs shorter than the input are typically wanted, you might consider decreasing max_length manually, e.g. summarizer('...', max_length=47)
+/Users/matthewgraziani/projects/TownWatch/lambda-scraper/maryland_scraper_v2.py:446: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'completed_at': datetime.utcnow().isoformat(),
+/Users/matthewgraziani/projects/TownWatch/lambda-scraper/maryland_scraper_v2.py:431: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'started_at': datetime.utcnow().isoformat(),
+/Users/matthewgraziani/projects/TownWatch/lambda-scraper/maryland_scraper_v2.py:911: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'scraped_at': datetime.utcnow().isoformat(),
+Starting Maryland government document scraping (version 2.0.0-maryland)...
+Total sources configured: 15
+
+Scraping Maryland General Assembly...
+✓ Maryland General Assembly: 0 documents found
+
+Scraping Board of Estimates...
+Extracting PDF from: https://comptroller.baltimorecity.gov/sites/default/files/2025-11-05-AgendaWithTOC.pdf
+Processing 408 pages from PDF
+✓ Extracted 500003 characters from PDF
+Loading HuggingFace model: facebook/bart-large-cnn
+✓ HuggingFace model loaded successfully
+Large document detected (500003 chars), filtering to interesting sections...
+Filtered to 30458 chars of interesting content
+Summarizing 5 chunks with HuggingFace BART...
+  ✓ Chunk 1/5 summarized
+  ✗ Error summarizing chunk 2: index out of range in self
+  ✗ Error summarizing chunk 3: index out of range in self
+  ✗ Error summarizing chunk 4: index out of range in self
+  ✗ Error summarizing chunk 5: index out of range in self
+✓ Final summary: 351 characters
+Extracting PDF from: https://comptroller.baltimorecity.gov/sites/default/files/comptroller_baltimorecity_gov/attachments/10.15.2025%20FINAL%20BOE%20Agenda.pdf
+Processing 262 pages from PDF
+✓ Extracted 500003 characters from PDF
+Large document detected (500003 chars), filtering to interesting sections...
+Filtered to 28744 chars of interesting content
+Summarizing 5 chunks with HuggingFace BART...
+  ✓ Chunk 1/5 summarized
+  ✗ Error summarizing chunk 2: index out of range in self
+  ✗ Error summarizing chunk 3: index out of range in self
+  ✗ Error summarizing chunk 4: index out of range in self
+  ✗ Error summarizing chunk 5: index out of range in self
+✓ Final summary: 351 characters
+Extracting PDF from: https://comptroller.baltimorecity.gov/sites/default/files/comptroller_baltimorecity_gov/attachments/2025-10-01-AgendaWithTOC_FINAL.pdf
+Processing 287 pages from PDF
+✓ Extracted 500003 characters from PDF
+Large document detected (500003 chars), filtering to interesting sections...
+Filtered to 26281 chars of interesting content
+Summarizing 5 chunks with HuggingFace BART...
+  ✓ Chunk 1/5 summarized
+  ✗ Error summarizing chunk 2: index out of range in self
+  ✗ Error summarizing chunk 3: index out of range in self
+  ✗ Error summarizing chunk 4: index out of range in self
+  ✗ Error summarizing chunk 5: index out of range in self
+✓ Final summary: 350 characters
+Extracting PDF from: https://comptroller.baltimorecity.gov/sites/default/files/comptroller_baltimorecity_gov/attachments/2025-09-17-AgendaWithTOC%20FINAL.pdf
+Processing 293 pages from PDF
+✓ Extracted 500003 characters from PDF
+Large document detected (500003 chars), filtering to interesting sections...
+Filtered to 26145 chars of interesting content
+Summarizing 5 chunks with HuggingFace BART...
+  ✓ Chunk 1/5 summarized
+  ✗ Error summarizing chunk 2: index out of range in self
+  ✗ Error summarizing chunk 3: index out of range in self
+  ✗ Error summarizing chunk 4: index out of range in self
+  ✗ Error summarizing chunk 5: index out of range in self
+✓ Final summary: 374 characters
+Extracting PDF from: https://comptroller.baltimorecity.gov/sites/default/files/comptroller_baltimorecity_gov/attachments/2025-09-03-AgendaWithTOC%20FINAL_1.pdf
+Processing 268 pages from PDF
+✓ Extracted 500003 characters from PDF
+Large document detected (500003 chars), filtering to interesting sections...
+Filtered to 26591 chars of interesting content
+Summarizing 5 chunks with HuggingFace BART...
+  ✓ Chunk 1/5 summarized
+  ✗ Error summarizing chunk 2: index out of range in self
+  ✗ Error summarizing chunk 3: index out of range in self
+  ✗ Error summarizing chunk 4: index out of range in self
+  ✗ Error summarizing chunk 5: index out of range in self
+✓ Final summary: 359 characters
+Extracting PDF from: https://comptroller.baltimorecity.gov/sites/default/files/BOE%20Agenda%208.20.25.pdf
+Processing 166 pages from PDF
+✓ Extracted 400058 characters from PDF
+Large document detected (400058 chars), filtering to interesting sections...
+Filtered to 19309 chars of interesting content
+Summarizing 5 chunks with HuggingFace BART...
+  ✓ Chunk 1/5 summarized
+  ✗ Error summarizing chunk 2: index out of range in self
+  ✗ Error summarizing chunk 3: index out of range in self
+  ✗ Error summarizing chunk 4: index out of range in self
+  ✗ Error summarizing chunk 5: index out of range in self
+✓ Final summary: 350 characters
+Extracting PDF from: https://comptroller.baltimorecity.gov/sites/default/files/Board%20of%20Estimates%20Agenda%208.6.2025.pdf
+Processing 349 pages from PDF
+✓ Extracted 500003 characters from PDF
+Large document detected (500003 chars), filtering to interesting sections...
+Filtered to 32813 chars of interesting content
+Summarizing 5 chunks with HuggingFace BART...
+  ✓ Chunk 1/5 summarized
+  ✗ Error summarizing chunk 2: index out of range in self
+  ✗ Error summarizing chunk 3: index out of range in self
+  ✗ Error summarizing chunk 4: index out of range in self
+  ✗ Error summarizing chunk 5: index out of range in self
+✓ Final summary: 349 characters
+Extracting PDF from: https://comptroller.baltimorecity.gov/sites/default/files/2025-07-16-AgendaWithTOC%20FINAL%20AGENDA.pdf
+Error extracting PDF text from https://comptroller.baltimorecity.gov/sites/default/files/2025-07-16-AgendaWithTOC%20FINAL%20AGENDA.pdf: HTTPSConnectionPool(host='comptroller.baltimorecity.gov', port=443): Max retries exceeded with url: /sites/default/files/2025-07-16-AgendaWithTOC%20FINAL%20AGENDA.pdf (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x324e76e90>: Failed to resolve 'comptroller.baltimorecity.gov' ([Errno 8] nodename nor servname provided, or not known)"))
+Extracting PDF from: https://www.baltimorecitycouncil.com/sites/default/files/CP%20Memo%202025-07-16-TOCRT.pdf
+Error extracting PDF text from https://www.baltimorecitycouncil.com/sites/default/files/CP%20Memo%202025-07-16-TOCRT.pdf: HTTPSConnectionPool(host='www.baltimorecitycouncil.com', port=443): Max retries exceeded with url: /sites/default/files/CP%20Memo%202025-07-16-TOCRT.pdf (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x33ee3f4d0>: Failed to resolve 'www.baltimorecitycouncil.com' ([Errno 8] nodename nor servname provided, or not known)"))
+Extracting PDF from: https://comptroller.baltimorecity.gov/sites/default/files/2025-07-02-AgendaWithTOC%20FINAL.pdf
+Error extracting PDF text from https://comptroller.baltimorecity.gov/sites/default/files/2025-07-02-AgendaWithTOC%20FINAL.pdf: HTTPSConnectionPool(host='comptroller.baltimorecity.gov', port=443): Max retries exceeded with url: /sites/default/files/2025-07-02-AgendaWithTOC%20FINAL.pdf (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x3b4d29a90>: Failed to resolve 'comptroller.baltimorecity.gov' ([Errno 8] nodename nor servname provided, or not known)"))
+Extracting PDF from: https://www.baltimorecitycouncil.com/sites/default/files/CP%20Memo%202025-07-02-TOCRT.pdf
+Error extracting PDF text from https://www.baltimorecitycouncil.com/sites/default/files/CP%20Memo%202025-07-02-TOCRT.pdf: HTTPSConnectionPool(host='www.baltimorecitycouncil.com', port=443): Max retries exceeded with url: /sites/default/files/CP%20Memo%202025-07-02-TOCRT.pdf (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x3b4d2a350>: Failed to resolve 'www.baltimorecitycouncil.com' ([Errno 8] nodename nor servname provided, or not known)"))
+Extracting PDF from: https://comptroller.baltimorecity.gov/sites/default/files/6.18.2025%20BOE%20Agenda.pdf
+Error extracting PDF text from https://comptroller.baltimorecity.gov/sites/default/files/6.18.2025%20BOE%20Agenda.pdf: HTTPSConnectionPool(host='comptroller.baltimorecity.gov', port=443): Max retries exceeded with url: /sites/default/files/6.18.2025%20BOE%20Agenda.pdf (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x3b4d2a990>: Failed to resolve 'comptroller.baltimorecity.gov' ([Errno 8] nodename nor servname provided, or not known)"))
+Extracting PDF from: https://www.baltimorecitycouncil.com/sites/default/files/CP%20Memo%202025-06-18-TOCRT.pdf
+Error extracting PDF text from https://www.baltimorecitycouncil.com/sites/default/files/CP%20Memo%202025-06-18-TOCRT.pdf: HTTPSConnectionPool(host='www.baltimorecitycouncil.com', port=443): Max retries exceeded with url: /sites/default/files/CP%20Memo%202025-06-18-TOCRT.pdf (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x3b4d2afd0>: Failed to resolve 'www.baltimorecitycouncil.com' ([Errno 8] nodename nor servname provided, or not known)"))
+✓ Board of Estimates: 10 documents found
+Error updating scraper run: [Errno 8] nodename nor servname provided, or not known
+
+Scraping Baltimore City Council...
+Error getting/creating source Baltimore City Council: [Errno 8] nodename nor servname provided, or not known
+Error creating scraper run: [Errno 8] nodename nor servname provided, or not known
+Error scraping Baltimore City Council: HTTPSConnectionPool(host='www.baltimorecitycouncil.com', port=443): Max retries exceeded with url: /complete-calendar (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x3b53f4410>: Failed to resolve 'www.baltimorecitycouncil.com' ([Errno 8] nodename nor servname provided, or not known)"))
+✓ Baltimore City Council: 0 documents found
+Error updating scraper run: [Errno 8] nodename nor servname provided, or not known
+
+Scraping Montgomery County Council...
+Error getting/creating source Montgomery County Council: [Errno 8] nodename nor servname provided, or not known
+Error creating scraper run: [Errno 8] nodename nor servname provided, or not known
+Error scraping Legistar calendar for Montgomery County: HTTPSConnectionPool(host='montgomerycountymd.legistar.com', port=443): Max retries exceeded with url: /Calendar.aspx (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x3b53f5810>: Failed to resolve 'montgomerycountymd.legistar.com' ([Errno 8] nodename nor servname provided, or not known)"))
+✓ Montgomery County Council: 0 documents found
+Error updating scraper run: [Errno 8] nodename nor servname provided, or not known
+
+Scraping Prince George's County Council...
+Error getting/creating source Prince George's County Council: [Errno 8] nodename nor servname provided, or not known
+Error creating scraper run: [Errno 8] nodename nor servname provided, or not known
+Error scraping Legistar calendar for Prince George's County: HTTPSConnectionPool(host='princegeorgescountymd.legistar.com', port=443): Max retries exceeded with url: /Calendar.aspx (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x3b53f6c10>: Failed to resolve 'princegeorgescountymd.legistar.com' ([Errno 8] nodename nor servname provided, or not known)"))
+✓ Prince George's County Council: 0 documents found
+Error updating scraper run: [Errno 8] nodename nor servname provided, or not known
+
+============================================================
+Storing 10 total documents in Supabase...
+Error checking for duplicate: [Errno 8] nodename nor servname provided, or not known
+Error storing document 'Baltimore Board of Estimates - November 5, 2025': [Errno 8] nodename nor servname provided, or not known
+Error checking for duplicate: [Errno 8] nodename nor servname provided, or not known
+Error storing document 'Baltimore Board of Estimates - October 15, 2025': [Errno 8] nodename nor servname provided, or not known
+Error checking for duplicate: [Errno 8] nodename nor servname provided, or not known
+Error storing document 'Baltimore Board of Estimates - October 1, 2025': [Errno 8] nodename nor servname provided, or not known
+Error checking for duplicate: [Errno 8] nodename nor servname provided, or not known
+Error storing document 'Baltimore Board of Estimates - September 17, 2025': [Errno 8] nodename nor servname provided, or not known
+Error checking for duplicate: [Errno 8] nodename nor servname provided, or not known
+Error storing document 'Baltimore Board of Estimates - September 3, 2025': [Errno 8] nodename nor servname provided, or not known
+Error checking for duplicate: [Errno 8] nodename nor servname provided, or not known
+Error storing document 'Baltimore Board of Estimates - August 20, 2025': [Errno 8] nodename nor servname provided, or not known
+Error checking for duplicate: [Errno 8] nodename nor servname provided, or not known
+Error storing document 'Baltimore Board of Estimates - August 06, 2025': [Errno 8] nodename nor servname provided, or not known
+Error checking for duplicate: [Errno 8] nodename nor servname provided, or not known
+Error storing document 'Baltimore Board of Estimates - July 16, 2025': [Errno 8] nodename nor servname provided, or not known
+Error checking for duplicate: [Errno 8] nodename nor servname provided, or not known
+Error storing document 'Baltimore Board of Estimates - July 02, 2025': [Errno 8] nodename nor servname provided, or not known
+Error checking for duplicate: [Errno 8] nodename nor servname provided, or not known
+Error storing document 'Baltimore Board of Estimates - June 18, 2025': [Errno 8] nodename nor servname provided, or not known
+Error updating scraper run: [Errno 8] nodename nor servname provided, or not known
+
+============================================================
+✅ Maryland Scraping Complete!
+============================================================
+Sources scraped:     5
+Documents found:     10
+New documents:       0
+Updated documents:   0
+Duplicates skipped:  0
+Errors:              10
+============================================================
+
+Breakdown by source:
+  Maryland General Assembly: 0
+  Board of Estimates: 10
+  Baltimore City Council: 0
+  Montgomery County Council: 0
+  Prince George's County Council: 0
+============================================================
+
+{
+  "message": "Maryland government scraping completed",
+  "scraper_version": "2.0.0-maryland",
+  "sources_scraped": 5,
+  "breakdown": {
+    "Maryland General Assembly": 0,
+    "Board of Estimates": 10,
+    "Baltimore City Council": 0,
+    "Montgomery County Council": 0,
+    "Prince George's County Council": 0
+  },
+  "total_documents_found": 10,
+  "storage_results": {
+    "stored": 0,
+    "updated": 0,
+    "duplicates": 0,
+    "errors": 10,
+    "total_processed": 10
+  },
+  "scraper_runs": 5
+}
