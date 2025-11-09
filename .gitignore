@@ -48,3 +48,9 @@ lambda-scraper/__pycache__/
 lambda-scraper/.env*
 lambda-scraper/test_env/
 lambda-scraper/venv/
+
+# Documentation and schema files (local only)
+*.md
+*.sql
+!node_modules/**/*.md
+!node_modules/**/*.sql
